@@ -435,21 +435,6 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_763ko")
 
-[node name="Collectible_25" parent="SceneObjects/sky" instance=ExtResource("20_7l5i1")]
-position = Vector2(810, 838)
-
-[node name="Collectible_26" parent="SceneObjects/sky" instance=ExtResource("20_7l5i1")]
-position = Vector2(919, 837)
-
-[node name="Collectible_27" parent="SceneObjects/sky" instance=ExtResource("20_7l5i1")]
-position = Vector2(865, 877)
-
-[node name="Collectible_28" parent="SceneObjects/sky" instance=ExtResource("20_7l5i1")]
-position = Vector2(810, 918)
-
-[node name="Collectible_29" parent="SceneObjects/sky" instance=ExtResource("20_7l5i1")]
-position = Vector2(919, 917)
-
 [node name="cloud2" parent="SceneObjects" instance=ExtResource("3_2kaqo")]
 texture_filter = 1
 texture_repeat = 2
@@ -459,171 +444,6 @@ offset_top = 3.0
 offset_right = 2507.0
 offset_bottom = 860.0
 script = null
-
-[node name="Collectible_25" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(810, 680)
-
-[node name="Collectible_26" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(919, 679)
-
-[node name="Collectible_27" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(865, 719)
-
-[node name="Collectible_28" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(810, 757)
-
-[node name="Collectible_29" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(919, 756)
-
-[node name="Collectible_30" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(865, 796)
-
-[node name="Collectible_37" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1054, 325)
-
-[node name="Collectible_38" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1055, 272)
-
-[node name="Collectible_39" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1055, 221)
-
-[node name="Collectible_1" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1127, 220)
-
-[node name="Collectible_2" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1196, 220)
-
-[node name="Collectible_3" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1265, 220)
-
-[node name="Collectible_4" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1334, 219)
-
-[node name="Collectible_5" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1403, 219)
-
-[node name="Collectible_6" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1367, 264)
-
-[node name="Collectible_7" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1327, 307)
-
-[node name="Collectible_8" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1367, 172)
-
-[node name="Collectible_9" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1325, 136)
-
-[node name="Collectible_10" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1279, 346)
-
-[node name="Collectible_11" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1271, 101)
-
-[node name="Collectible_33" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1705, 118)
-
-[node name="Collectible_40" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1705, 164)
-
-[node name="Collectible_41" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1705, 211)
-
-[node name="Collectible_42" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1705, 258)
-
-[node name="Collectible_34" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1790, 118)
-
-[node name="Collectible_43" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1790, 164)
-
-[node name="Collectible_44" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1790, 211)
-
-[node name="Collectible_45" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1790, 258)
-
-[node name="Collectible_35" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1873, 118)
-
-[node name="Collectible_46" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1873, 164)
-
-[node name="Collectible_47" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1873, 211)
-
-[node name="Collectible_48" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1873, 258)
-
-[node name="Collectible_36" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1956, 118)
-
-[node name="Collectible_49" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1956, 164)
-
-[node name="Collectible_50" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1956, 211)
-
-[node name="Collectible_51" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1956, 258)
-
-[node name="Collectible_12" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1469, 925)
-
-[node name="Collectible_13" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1469, 873)
-
-[node name="Collectible_14" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1519, 808)
-
-[node name="Collectible_15" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1571, 765)
-
-[node name="Collectible_16" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1644, 797)
-
-[node name="Collectible_17" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1719, 827)
-
-[node name="Collectible_18" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1716, 760)
-
-[node name="Collectible_19" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1712, 701)
-
-[node name="Collectible_20" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1771, 636)
-
-[node name="Collectible_21" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1832, 592)
-
-[node name="Collectible_22" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1908, 589)
-
-[node name="Collectible_23" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(1986, 590)
-
-[node name="Collectible_24" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(2060, 619)
-
-[node name="Collectible_31" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(2139, 668)
-
-[node name="Collectible_32" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(2139, 728)
-
-[node name="Collectible_52" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(2225, 728)
-
-[node name="Collectible_53" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(2228, 671)
-
-[node name="Collectible_54" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(2298, 622)
-
-[node name="Collectible_55" parent="SceneObjects/cloud2" instance=ExtResource("20_7l5i1")]
-position = Vector2(2361, 587)
 
 [node name="TileMap" type="TileMap" parent="SceneObjects"]
 texture_filter = 1
@@ -871,135 +691,317 @@ position = Vector2(137, -6)
 [node name="RigidBody2D3" parent="." instance=ExtResource("9_j3cnn")]
 position = Vector2(735, -382)
 
-[node name="Collectible_1" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(209, 450)
-
-[node name="Collectible_2" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(274, 450)
-
-[node name="Collectible_3" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(318, 495)
-
-[node name="Collectible_4" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(357, 539)
-
-[node name="Collectible_5" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(357, 586)
-
-[node name="Collectible_6" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(357, 633)
-
-[node name="Collectible_7" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(357, 680)
-
-[node name="Collectible_8" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(356, 727)
-
-[node name="Collectible_9" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(356, 775)
-
-[node name="Collectible_10" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(356, 821)
-
-[node name="Collectible_11" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(356, 868)
-
-[node name="Collectible_12" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(357, 915)
-
-[node name="Collectible_13" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(456, 681)
-
-[node name="Collectible_14" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(456, 588)
-
-[node name="Collectible_15" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(457, 542)
-
-[node name="Collectible_16" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(547, 453)
-
-[node name="Collectible_17" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(456, 635)
-
-[node name="Collectible_18" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(500, 496)
-
-[node name="Collectible_19" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(612, 452)
-
-[node name="Collectible_20" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(666, 494)
-
-[node name="Collectible_21" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(457, 867)
-
-[node name="Collectible_22" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(457, 821)
-
-[node name="Collectible_23" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(456, 775)
-
-[node name="Collectible_24" parent="." instance=ExtResource("20_7l5i1")]
-position = Vector2(456, 727)
-
 [node name="Path2D" parent="." instance=ExtResource("21_ep4ge")]
 position = Vector2(693, 760)
 curve = SubResource("Curve2D_ixipo")
 
-[node name="Collectible_25" parent="." instance=ExtResource("20_7l5i1")]
+[node name="collectibles" type="Node" parent="."]
+
+[node name="Collectible_25" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(811, 683)
+
+[node name="Collectible_26" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(920, 682)
+
+[node name="Collectible_27" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(866, 722)
+
+[node name="Collectible_28" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(811, 760)
+
+[node name="Collectible_29" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(920, 759)
+
+[node name="Collectible_30" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(866, 799)
+
+[node name="Collectible_37" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1055, 328)
+
+[node name="Collectible_38" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1056, 275)
+
+[node name="Collectible_39" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1056, 224)
+
+[node name="Collectible_1" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1128, 223)
+
+[node name="Collectible_2" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1197, 223)
+
+[node name="Collectible_3" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1266, 223)
+
+[node name="Collectible_4" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1335, 222)
+
+[node name="Collectible_5" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1404, 222)
+
+[node name="Collectible_6" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1368, 267)
+
+[node name="Collectible_7" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1328, 310)
+
+[node name="Collectible_8" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1368, 175)
+
+[node name="Collectible_9" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1326, 139)
+
+[node name="Collectible_10" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1280, 349)
+
+[node name="Collectible_11" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1272, 104)
+
+[node name="Collectible_33" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1706, 121)
+
+[node name="Collectible_40" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1706, 167)
+
+[node name="Collectible_41" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1706, 214)
+
+[node name="Collectible_42" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1706, 261)
+
+[node name="Collectible_34" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1791, 121)
+
+[node name="Collectible_43" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1791, 167)
+
+[node name="Collectible_44" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1791, 214)
+
+[node name="Collectible_45" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1791, 261)
+
+[node name="Collectible_35" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1874, 121)
+
+[node name="Collectible_46" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1874, 167)
+
+[node name="Collectible_47" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1874, 214)
+
+[node name="Collectible_48" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1874, 261)
+
+[node name="Collectible_36" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1957, 121)
+
+[node name="Collectible_49" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1957, 167)
+
+[node name="Collectible_50" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1957, 214)
+
+[node name="Collectible_51" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1957, 261)
+
+[node name="Collectible_12" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1470, 928)
+
+[node name="Collectible_13" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1470, 876)
+
+[node name="Collectible_14" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1520, 811)
+
+[node name="Collectible_15" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1572, 768)
+
+[node name="Collectible_16" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1645, 800)
+
+[node name="Collectible_17" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1720, 830)
+
+[node name="Collectible_18" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1717, 763)
+
+[node name="Collectible_19" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1713, 704)
+
+[node name="Collectible_20" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1772, 639)
+
+[node name="Collectible_21" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1833, 595)
+
+[node name="Collectible_22" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1909, 592)
+
+[node name="Collectible_23" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(1987, 593)
+
+[node name="Collectible_24" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(2061, 622)
+
+[node name="Collectible_31" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(2140, 671)
+
+[node name="Collectible_32" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(2140, 731)
+
+[node name="Collectible_52" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(2226, 731)
+
+[node name="Collectible_53" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(2229, 674)
+
+[node name="Collectible_54" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(2299, 625)
+
+[node name="Collectible_55" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(2362, 590)
+
+[node name="Collectible_56" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(810, 605)
 
-[node name="Collectible_26" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_57" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(919, 604)
 
-[node name="Collectible_27" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_58" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(865, 644)
 
-[node name="Collectible_28" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_59" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(1253, 643)
 
-[node name="Collectible_29" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_60" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(1253, 737)
 
-[node name="Collectible_30" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_61" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(1253, 690)
 
-[node name="Collectible_31" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_62" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(1253, 784)
 
-[node name="Collectible_32" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_63" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(1254, 833)
 
-[node name="Collectible_34" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_64" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(1080, 737)
 
-[node name="Collectible_35" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_65" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(1080, 784)
 
-[node name="Collectible_36" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_66" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(1080, 832)
 
-[node name="Collectible_37" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_67" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(1055, 484)
 
-[node name="Collectible_38" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_68" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(1055, 431)
 
-[node name="Collectible_39" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_69" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(1055, 380)
 
-[node name="Collectible_33" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_70" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(1620, 121)
 
-[node name="Collectible_40" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_71" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(1620, 167)
 
-[node name="Collectible_41" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_72" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(1620, 214)
 
-[node name="Collectible_42" parent="." instance=ExtResource("20_7l5i1")]
+[node name="Collectible_73" parent="collectibles" instance=ExtResource("20_7l5i1")]
 position = Vector2(1620, 261)
+
+[node name="Collectible_74" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(209, 450)
+
+[node name="Collectible_75" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(274, 450)
+
+[node name="Collectible_76" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(318, 495)
+
+[node name="Collectible_77" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(357, 539)
+
+[node name="Collectible_78" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(357, 586)
+
+[node name="Collectible_79" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(357, 633)
+
+[node name="Collectible_80" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(357, 680)
+
+[node name="Collectible_81" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(356, 727)
+
+[node name="Collectible_82" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(356, 775)
+
+[node name="Collectible_83" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(356, 821)
+
+[node name="Collectible_84" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(356, 868)
+
+[node name="Collectible_85" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(357, 915)
+
+[node name="Collectible_86" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(456, 681)
+
+[node name="Collectible_87" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(456, 588)
+
+[node name="Collectible_88" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(457, 542)
+
+[node name="Collectible_89" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(547, 453)
+
+[node name="Collectible_90" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(456, 635)
+
+[node name="Collectible_91" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(500, 496)
+
+[node name="Collectible_92" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(612, 452)
+
+[node name="Collectible_93" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(666, 494)
+
+[node name="Collectible_94" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(457, 867)
+
+[node name="Collectible_95" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(457, 821)
+
+[node name="Collectible_96" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(456, 775)
+
+[node name="Collectible_97" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(456, 727)
+
+[node name="Collectible_98" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(810, 838)
+
+[node name="Collectible_99" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(919, 837)
+
+[node name="Collectible_100" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(865, 877)
+
+[node name="Collectible_101" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(810, 918)
+
+[node name="Collectible_102" parent="collectibles" instance=ExtResource("20_7l5i1")]
+position = Vector2(919, 917)
 
 [connection signal="body_entered" from="SceneObjects/Area2D" to="SceneObjects/Area2D" method="_on_body_entered"]
 [connection signal="pressed" from="UI/Pause/PausePanel/VBoxContainer/Continue" to="UI/Pause" method="_on_continue_pressed"]
