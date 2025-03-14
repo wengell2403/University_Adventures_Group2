@@ -19,6 +19,7 @@ config/features=PackedStringArray("4.3", "GL Compatibility")
 AudioController="*res://Scene/Game Objects/audio_controller.tscn"
 DialogSystem="*res://Assets/DialogSystem/dialog_system.tscn"
 GameManager="*res://Scene/Levels/game_manager.gd"
+AudioPlayer="*res://Scene/Global/audio_player.tscn"
 
 [display]
 
