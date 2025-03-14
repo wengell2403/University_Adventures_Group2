@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://clr86x8ntdxu5"]
+[gd_scene load_steps=32 format=3 uid="uid://clr86x8ntdxu5"]
 
 [ext_resource type="Script" path="res://Scene/Levels/main_scene.gd" id="1_qvwvn"]
 [ext_resource type="Texture2D" uid="uid://bb5hqars7tdam" path="res://Assets/Background/night_bg.png" id="2_0mhwq"]
@@ -19,6 +19,7 @@
 [ext_resource type="Texture2D" uid="uid://g6vpe88m4uoy" path="res://Assets/Game_Elements/heart.png" id="16_okkjk"]
 [ext_resource type="Script" path="res://Scene/Levels/pause.gd" id="17_jlfn3"]
 [ext_resource type="PackedScene" uid="uid://b0wo02j30lmx1" path="res://Scene/Game Objects/audio_controller.tscn" id="18_r8d4e"]
+[ext_resource type="PackedScene" uid="uid://botqha5f3d8vu" path="res://Scene/Game Objects/enemy_fear.tscn" id="19_0oopx"]
 [ext_resource type="PackedScene" uid="uid://c2jm41k33kn6v" path="res://Scene/Game Objects/moving_platform.tscn" id="20_3bb0o"]
 [ext_resource type="PackedScene" uid="uid://r8erf3idi4f5" path="res://Scene/Game Objects/collectible_6bshm.tscn" id="20_20sug"]
 
@@ -436,9 +437,9 @@ distance = -1079.0
 
 [sub_resource type="Curve2D" id="Curve2D_d2o2w"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, 595, 140, 0, 0, 0, 0, 394, 142)
+"points": PackedVector2Array(0, 0, 0, 0, 595, 140, 0, 0, 0, 0, 438, 141, 0, 0, 0, 0, 283, 143)
 }
-point_count = 2
+point_count = 3
 
 [sub_resource type="Curve2D" id="Curve2D_kfj3q"]
 _data = {
@@ -497,7 +498,13 @@ offset_bottom = 864.0
 script = null
 
 [node name="RigidBody2D" parent="SceneObjects/cloud2" instance=ExtResource("6_opj1a")]
-position = Vector2(519, -481)
+position = Vector2(519, -486)
+
+[node name="collectible_76" parent="SceneObjects/cloud2" instance=ExtResource("20_20sug")]
+position = Vector2(1298, 766)
+
+[node name="enemy_fear7" parent="SceneObjects/cloud2" instance=ExtResource("19_0oopx")]
+position = Vector2(613, 346)
 
 [node name="TileMap" type="TileMap" parent="SceneObjects"]
 texture_filter = 1
@@ -706,22 +713,19 @@ position = Vector2(1256, 646)
 curve = SubResource("Curve2D_ne01d")
 
 [node name="collectible_2" parent="." instance=ExtResource("20_20sug")]
-position = Vector2(496, -42)
-
-[node name="collectible_3" parent="." instance=ExtResource("20_20sug")]
-position = Vector2(451, -86)
+position = Vector2(505, -42)
 
 [node name="collectible_4" parent="." instance=ExtResource("20_20sug")]
-position = Vector2(405, -42)
+position = Vector2(393, -42)
 
 [node name="collectible_5" parent="." instance=ExtResource("20_20sug")]
-position = Vector2(451, 2)
+position = Vector2(450, -42)
 
 [node name="collectible_6" parent="." instance=ExtResource("20_20sug")]
-position = Vector2(681, -42)
+position = Vector2(698, -42)
 
 [node name="collectible_7" parent="." instance=ExtResource("20_20sug")]
-position = Vector2(636, -86)
+position = Vector2(644, -42)
 
 [node name="collectible_8" parent="." instance=ExtResource("20_20sug")]
 position = Vector2(590, -42)
@@ -764,6 +768,267 @@ position = Vector2(441, 375)
 
 [node name="collectible_21" parent="." instance=ExtResource("20_20sug")]
 position = Vector2(441, 428)
+
+[node name="collectible_22" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(305, 750)
+
+[node name="collectible_23" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(305, 689)
+
+[node name="collectible_24" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(305, 630)
+
+[node name="collectible_25" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(305, 576)
+
+[node name="collectible_26" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(305, 521)
+
+[node name="collectible_27" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(336, 467)
+
+[node name="collectible_29" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(389, 440)
+
+[node name="collectible_28" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(553, 816)
+
+[node name="collectible_30" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(602, 771)
+
+[node name="collectible_31" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(656, 734)
+
+[node name="collectible_32" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(709, 707)
+
+[node name="collectible_33" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(765, 683)
+
+[node name="collectible_34" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(827, 682)
+
+[node name="collectible_35" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(879, 715)
+
+[node name="collectible_39" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(12, 598)
+
+[node name="collectible_40" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(-22, 655)
+
+[node name="collectible_41" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(73, 568)
+
+[node name="collectible_42" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(132, 595)
+
+[node name="collectible_43" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(12, 714)
+
+[node name="collectible_44" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(73, 743)
+
+[node name="collectible_45" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(132, 713)
+
+[node name="collectible_46" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(172, 655)
+
+[node name="collectible_47" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(74, 655)
+
+[node name="collectible_48" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(795, 329)
+
+[node name="collectible_49" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(795, 270)
+
+[node name="collectible_50" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(795, 214)
+
+[node name="collectible_51" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(918, 190)
+
+[node name="collectible_52" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(976, 141)
+
+[node name="collectible_53" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1022, 94)
+
+[node name="collectible_54" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1069, 50)
+
+[node name="collectible_55" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1116, 94)
+
+[node name="collectible_56" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1161, 49)
+
+[node name="collectible_57" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1208, 94)
+
+[node name="collectible_58" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1254, 141)
+
+[node name="collectible_59" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1308, 198)
+
+[node name="collectible_61" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1094, 481)
+
+[node name="collectible_62" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1093, 432)
+
+[node name="collectible_63" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1170, 481)
+
+[node name="collectible_64" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1246, 481)
+
+[node name="collectible_65" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1169, 432)
+
+[node name="collectible_66" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1246, 432)
+
+[node name="collectible_70" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1326, 532)
+
+[node name="collectible_72" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1326, 481)
+
+[node name="collectible_73" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1218, 680)
+
+[node name="collectible_74" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1264, 725)
+
+[node name="collectible_75" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1312, 679)
+
+[node name="collectible_76" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1361, 724)
+
+[node name="collectible_77" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1409, 678)
+
+[node name="collectible_78" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1568, 859)
+
+[node name="collectible_79" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1614, 817)
+
+[node name="collectible_80" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1671, 804)
+
+[node name="collectible_81" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1725, 817)
+
+[node name="collectible_82" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1773, 862)
+
+[node name="collectible_83" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1822, 817)
+
+[node name="collectible_84" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1874, 804)
+
+[node name="collectible_85" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1927, 818)
+
+[node name="collectible_86" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1976, 864)
+
+[node name="collectible_87" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2040, 614)
+
+[node name="collectible_88" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2096, 614)
+
+[node name="collectible_89" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2152, 614)
+
+[node name="collectible_90" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2232, 550)
+
+[node name="collectible_91" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2232, 496)
+
+[node name="collectible_92" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2232, 442)
+
+[node name="collectible_93" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2232, 390)
+
+[node name="collectible_94" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2232, 338)
+
+[node name="collectible_95" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2231, 286)
+
+[node name="collectible_96" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2231, 232)
+
+[node name="collectible_97" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2230, 178)
+
+[node name="collectible_98" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2209, 124)
+
+[node name="collectible_99" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2156, 98)
+
+[node name="collectible_100" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2102, 121)
+
+[node name="collectible_101" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2066, 176)
+
+[node name="collectible_102" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2032, 121)
+
+[node name="collectible_103" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(2032, 66)
+
+[node name="collectible_104" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1983, 16)
+
+[node name="collectible_105" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1931, -17)
+
+[node name="collectible_106" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1875, -17)
+
+[node name="collectible_107" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1821, 12)
+
+[node name="collectible_108" parent="." instance=ExtResource("20_20sug")]
+position = Vector2(1773, 56)
+
+[node name="enemy_fear2" parent="." instance=ExtResource("19_0oopx")]
+position = Vector2(1619, 835)
+
+[node name="enemy_fear3" parent="." instance=ExtResource("19_0oopx")]
+position = Vector2(1814, 838)
+
+[node name="enemy_fear4" parent="." instance=ExtResource("19_0oopx")]
+position = Vector2(2333, 590)
+
+[node name="enemy_fear5" parent="." instance=ExtResource("19_0oopx")]
+position = Vector2(828, 740)
+
+[node name="enemy_fear6" parent="." instance=ExtResource("19_0oopx")]
+position = Vector2(24, 781)
+
+[node name="enemy_fear7" parent="." instance=ExtResource("19_0oopx")]
+position = Vector2(530, 353)
+
+[node name="enemy_fear" parent="." instance=ExtResource("19_0oopx")]
+position = Vector2(1011, 113)
+
+[node name="enemy_fear8" parent="." instance=ExtResource("19_0oopx")]
+position = Vector2(1122, 115)
 
 [connection signal="body_entered" from="SceneObjects/fall_area" to="SceneObjects/fall_area" method="_on_body_entered"]
 [connection signal="pressed" from="UI/Pause/PausePanel/VBoxContainer/Continue" to="UI/Pause" method="_on_continue_pressed"]

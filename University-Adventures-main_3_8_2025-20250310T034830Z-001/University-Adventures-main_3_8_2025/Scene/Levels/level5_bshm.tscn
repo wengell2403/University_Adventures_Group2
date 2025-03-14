@@ -1,7 +1,7 @@
 [gd_scene load_steps=26 format=3 uid="uid://b00lmjy7hvhyb"]
 
 [ext_resource type="Script" path="res://Scene/Levels/main_scene.gd" id="1_02ail"]
-[ext_resource type="Texture2D" uid="uid://b0jgooqur87vn" path="res://Assets/Background/noon_bg.png" id="2_f7n5s"]
+[ext_resource type="Texture2D" uid="uid://bb5hqars7tdam" path="res://Assets/Background/night_bg.png" id="2_vyksd"]
 [ext_resource type="PackedScene" uid="uid://d3ll8jor742i6" path="res://Scene/Game Objects/cloud.tscn" id="3_8rsiu"]
 [ext_resource type="Shader" path="res://Scene/moving_cloud.gdshader" id="4_1vev3"]
 [ext_resource type="Texture2D" uid="uid://ddkdlb36416r" path="res://Assets/Terrain/Terrain (16x16).png" id="5_r1f1u"]
@@ -447,12 +447,9 @@ offset_right = 1344.0
 offset_bottom = 339.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_f7n5s")
+texture = ExtResource("2_vyksd")
 expand_mode = 1
 stretch_mode = 1
-
-[node name="collectible_46" parent="SceneObjects/sky" instance=ExtResource("18_3r8xy")]
-position = Vector2(1708, 863)
 
 [node name="cloud2" parent="SceneObjects" instance=ExtResource("3_8rsiu")]
 texture_filter = 1
@@ -475,6 +472,9 @@ position = Vector2(292, -197)
 
 [node name="collectible_43" parent="SceneObjects/cloud2" instance=ExtResource("18_3r8xy")]
 position = Vector2(1755, 675)
+
+[node name="collectible_46" parent="SceneObjects/cloud2" instance=ExtResource("18_3r8xy")]
+position = Vector2(1707, 816)
 
 [node name="collectible_2" parent="SceneObjects/cloud2" instance=ExtResource("18_3r8xy")]
 position = Vector2(1800, 722)
