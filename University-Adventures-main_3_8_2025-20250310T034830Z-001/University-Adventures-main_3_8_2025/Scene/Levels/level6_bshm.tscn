@@ -10,10 +10,10 @@
 [ext_resource type="Texture2D" uid="uid://ddkdlb36416r" path="res://Assets/Terrain/Terrain (16x16).png" id="7_xadk2"]
 [ext_resource type="Texture2D" uid="uid://6i8o7w7v4sv0" path="res://Assets/Terrain/blue_mud tile.png" id="8_pws5f"]
 [ext_resource type="PackedScene" uid="uid://rp7d3gem3c8e" path="res://Scene/Game Objects/trophy.tscn" id="9_shgrh"]
-[ext_resource type="PackedScene" uid="uid://xfece22eo78r" path="res://Scene/Levels/level5.tscn" id="10_7yv6m"]
 [ext_resource type="Script" path="res://Scene/Game Objects/fall_area.gd" id="11_do2dt"]
 [ext_resource type="PackedScene" uid="uid://7xdbgqrvjitt" path="res://Scene/Game Objects/character_HM.tscn" id="12_rpf7c"]
 [ext_resource type="Script" path="res://Scene/Levels/game_manager.gd" id="13_b2vbr"]
+[ext_resource type="PackedScene" uid="uid://bvqg4hhy1fi4q" path="res://Scene/Levels/level7_bshm.tscn" id="13_gumhy"]
 [ext_resource type="Texture2D" uid="uid://c6pqbdsbqfdc6" path="res://Assets/Game_Elements/ui_score.png" id="14_ja2dh"]
 [ext_resource type="FontFile" uid="uid://nsdsdvtwvjbv" path="res://Assets/Game_Elements/SummerPixel22Regular-jE0W7.ttf" id="15_f1q5k"]
 [ext_resource type="Texture2D" uid="uid://g6vpe88m4uoy" path="res://Assets/Game_Elements/heart.png" id="16_okkjk"]
@@ -521,7 +521,7 @@ format = 2
 
 [node name="Trophy" parent="SceneObjects" instance=ExtResource("9_shgrh")]
 position = Vector2(2432, 894)
-target_level = ExtResource("10_7yv6m")
+target_level = ExtResource("13_gumhy")
 
 [node name="fall_area" type="Area2D" parent="SceneObjects"]
 script = ExtResource("11_do2dt")

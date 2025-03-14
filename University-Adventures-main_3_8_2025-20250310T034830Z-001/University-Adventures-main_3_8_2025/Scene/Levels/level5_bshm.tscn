@@ -7,9 +7,9 @@
 [ext_resource type="Texture2D" uid="uid://ddkdlb36416r" path="res://Assets/Terrain/Terrain (16x16).png" id="5_r1f1u"]
 [ext_resource type="Texture2D" uid="uid://6i8o7w7v4sv0" path="res://Assets/Terrain/blue_mud tile.png" id="6_23km4"]
 [ext_resource type="PackedScene" uid="uid://rp7d3gem3c8e" path="res://Scene/Game Objects/trophy.tscn" id="7_svx7f"]
-[ext_resource type="PackedScene" uid="uid://xfece22eo78r" path="res://Scene/Levels/level5.tscn" id="8_xvgae"]
 [ext_resource type="Script" path="res://Scene/Game Objects/fall_area.gd" id="9_vi8br"]
 [ext_resource type="PackedScene" uid="uid://3e8r72cattme" path="res://Scene/Game Objects/tarpoline_bounce.tscn" id="10_44pdn"]
+[ext_resource type="PackedScene" uid="uid://clr86x8ntdxu5" path="res://Scene/Levels/level6_bshm.tscn" id="10_ssh4w"]
 [ext_resource type="PackedScene" uid="uid://7xdbgqrvjitt" path="res://Scene/Game Objects/character_HM.tscn" id="11_81cvc"]
 [ext_resource type="PackedScene" uid="uid://botqha5f3d8vu" path="res://Scene/Game Objects/enemy_fear.tscn" id="13_vyfqk"]
 [ext_resource type="Script" path="res://Scene/Levels/game_manager.gd" id="14_g2ufg"]
@@ -530,7 +530,7 @@ format = 2
 
 [node name="Trophy" parent="SceneObjects" instance=ExtResource("7_svx7f")]
 position = Vector2(2408, 392)
-target_level = ExtResource("8_xvgae")
+target_level = ExtResource("10_ssh4w")
 
 [node name="fall_area" type="Area2D" parent="SceneObjects"]
 script = ExtResource("9_vi8br")

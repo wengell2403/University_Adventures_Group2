@@ -530,17 +530,10 @@ hearts = [NodePath("../UI/Hearts/HBoxContainer/Heart"), NodePath("../UI/Hearts/H
 
 [node name="LevelBox" type="TextureRect" parent="UI"]
 texture_filter = 1
-anchors_preset = 7
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-offset_left = -562.0
-offset_top = -89.0
-offset_right = -446.0
-offset_bottom = -16.0
-grow_horizontal = 2
-grow_vertical = 0
+offset_left = 10.0
+offset_top = 22.0
+offset_right = 126.0
+offset_bottom = 95.0
 size_flags_horizontal = 4
 size_flags_vertical = 4
 texture = ExtResource("15_531vk")

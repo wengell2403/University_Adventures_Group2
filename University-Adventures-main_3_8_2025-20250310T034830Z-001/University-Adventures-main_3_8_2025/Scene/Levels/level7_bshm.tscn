@@ -8,8 +8,8 @@
 [ext_resource type="Texture2D" uid="uid://ddkdlb36416r" path="res://Assets/Terrain/Terrain (16x16).png" id="5_hit7n"]
 [ext_resource type="Texture2D" uid="uid://6i8o7w7v4sv0" path="res://Assets/Terrain/blue_mud tile.png" id="6_y1es0"]
 [ext_resource type="PackedScene" uid="uid://rp7d3gem3c8e" path="res://Scene/Game Objects/trophy.tscn" id="8_u1whd"]
-[ext_resource type="PackedScene" uid="uid://c8cpscb14pvnb" path="res://Scene/Levels/level8.tscn" id="9_f3nss"]
 [ext_resource type="Script" path="res://Scene/Game Objects/fall_area.gd" id="10_2ss33"]
+[ext_resource type="PackedScene" uid="uid://pmk4ajim12u3" path="res://Scene/main_menu.tscn" id="10_g56rw"]
 [ext_resource type="PackedScene" uid="uid://botqha5f3d8vu" path="res://Scene/Game Objects/enemy_fear.tscn" id="10_uqyqj"]
 [ext_resource type="Script" path="res://Scene/Levels/game_manager.gd" id="11_wmkbc"]
 [ext_resource type="Texture2D" uid="uid://c6pqbdsbqfdc6" path="res://Assets/Game_Elements/ui_score.png" id="12_bl3u3"]
@@ -598,7 +598,7 @@ format = 2
 
 [node name="Trophy" parent="SceneObjects" instance=ExtResource("8_u1whd")]
 position = Vector2(2407, 152)
-target_level = ExtResource("9_f3nss")
+target_level = ExtResource("10_g56rw")
 
 [node name="fall_area" type="Area2D" parent="SceneObjects"]
 script = ExtResource("10_2ss33")
@@ -766,17 +766,10 @@ hearts = [NodePath("../UI/Hearts/HBoxContainer/Heart"), NodePath("../UI/Hearts/H
 
 [node name="LevelBox" type="TextureRect" parent="UI"]
 texture_filter = 1
-anchors_preset = 7
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-offset_left = -562.0
-offset_top = -89.0
-offset_right = -446.0
-offset_bottom = -16.0
-grow_horizontal = 2
-grow_vertical = 0
+offset_left = 10.0
+offset_top = 22.0
+offset_right = 126.0
+offset_bottom = 95.0
 size_flags_horizontal = 4
 size_flags_vertical = 4
 texture = ExtResource("12_bl3u3")
