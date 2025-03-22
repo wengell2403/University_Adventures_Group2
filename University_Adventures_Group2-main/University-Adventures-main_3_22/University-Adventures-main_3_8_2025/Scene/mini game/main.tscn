@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=3 uid="uid://dm5xlopoxgiqh"]
+
+[ext_resource type="PackedScene" uid="uid://dbl8bhi12i64f" path="res://Scene/mini game/puzzle_manager.tscn" id="1_jvch4"]
+
+[node name="main" type="Node2D"]
+position = Vector2(578, 323)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-1, 3)
+
+[node name="TileMap" parent="." instance=ExtResource("1_jvch4")]
+position = Vector2(-472, -212)
+script = null
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="score_label" type="Label" parent="CanvasLayer"]
+offset_left = 833.0
+offset_top = 303.0
+offset_right = 1141.0
+offset_bottom = 385.0
+theme_override_font_sizes/font_size = 40
+text = "SCORE"
+
+[node name="turns_label" type="Label" parent="CanvasLayer"]
+offset_left = 834.0
+offset_top = 375.0
+offset_right = 1142.0
+offset_bottom = 457.0
+theme_override_font_sizes/font_size = 40
+text = "TURN TABLE"

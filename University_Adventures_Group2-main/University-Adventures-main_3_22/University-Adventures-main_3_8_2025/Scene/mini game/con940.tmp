@@ -1,0 +1,53 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyp0xelpvdqu7"]
+
+[ext_resource type="Script" path="res://tic_tac_toe.gd" id="1_eocnw"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_eocnw")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
+offset_right = 667.0
+offset_bottom = 645.0
+columns = 3
+
+[node name="Button1" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button2" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button3" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button4" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button5" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button6" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button7" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button8" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button9" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="result_label" type="Label" parent="."]
+layout_mode = 2
+offset_right = 1.0
+offset_bottom = 23.0
+
+[node name="restart_button" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
