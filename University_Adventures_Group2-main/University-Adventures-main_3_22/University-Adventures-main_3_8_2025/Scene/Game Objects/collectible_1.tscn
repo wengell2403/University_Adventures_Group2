@@ -1,6 +1,7 @@
-[gd_scene load_steps=19 format=3 uid="uid://dlnyc34bc741c"]
+[gd_scene load_steps=20 format=3 uid="uid://dlnyc34bc741c"]
 
 [ext_resource type="Script" path="res://Scene/Game Objects/collectible_2.gd" id="1_861h7"]
+[ext_resource type="PackedScene" uid="uid://cyp0xelpvdqu7" path="res://Scene/mini game/control.tscn" id="2_qmjct"]
 [ext_resource type="Texture2D" uid="uid://bxhmphbo3nyt8" path="res://Assets/Game_Elements/Books-Collectiblespack.png" id="2_wd5r2"]
 [ext_resource type="Texture2D" uid="uid://bcmmh637yd4ey" path="res://Assets/Game_Elements/Collected.png" id="2_xabv8"]
 
@@ -113,6 +114,7 @@ size = Vector2(60, 36)
 
 [node name="Collectible_1" type="Area2D"]
 script = ExtResource("1_861h7")
+tic_tac_toe_scene = ExtResource("2_qmjct")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1

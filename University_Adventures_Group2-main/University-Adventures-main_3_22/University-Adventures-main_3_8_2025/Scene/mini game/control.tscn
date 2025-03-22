@@ -1,0 +1,70 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyp0xelpvdqu7"]
+
+[ext_resource type="Script" path="res://tic_tac_toe.gd" id="1_eocnw"]
+
+[node name="tic_tac_toe" type="Control" groups=["MiniGame"]]
+z_index = 5
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_eocnw")
+
+[node name="result_label" type="Label" parent="."]
+layout_mode = 2
+offset_left = 401.0
+offset_top = 182.0
+offset_right = 501.0
+offset_bottom = 205.0
+text = "RESULT:"
+
+[node name="restart_button" type="Button" parent="."]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 0
+offset_left = 49.0
+offset_top = 28.0
+offset_right = 59.0
+offset_bottom = 38.0
+
+[node name="GridContainer" type="GridContainer" parent="."]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = 401.0
+offset_top = 144.0
+offset_right = 720.0
+offset_bottom = 459.0
+columns = 3
+
+[node name="Button1" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+
+[node name="Button2" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+
+[node name="Button3" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+
+[node name="Button4" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+
+[node name="Button5" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button6" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button7" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+
+[node name="Button8" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button9" type="Button" parent="GridContainer"]
+layout_mode = 2
