@@ -1,0 +1,5 @@
+res://Scene/Levels/level8_bshm.tscn
+res://Scene/Global/audio_player.gd
+res://Scene/main_menu.tscn
+res://Scene/Menu/character_select.tscn
+res://Scene/Game Objects/collectible_9.tscn
